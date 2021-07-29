@@ -22,7 +22,7 @@ program
   .option('-nn, --no-numbers', 'remove numbers')
   .option('-ns, --no-symbols', 'remove symbols')
   .option('-nc, --no-chars', 'remove chars')
-  .option('-u, --upper-chars', 'contain upper chars')
+  .option('-u, --upper-chars', 'password contain upper chars')
   .parse();
 
 const { length, save, numbers, symbols, chars, upperChars } = program.opts();
