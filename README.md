@@ -34,3 +34,12 @@ npm unlink
 | -u    | --upper-chars     | password contain upper chars    |
 | -h    | --help            | display help for command        |
 | -V    | --version         | Show the version                |
+
+## Example
+
+```
+> passwordgenerator -s -nc -ns -l 20
+info: Generated Password: 18923846516365649546
+info: Password copied to clipboard
+info: Password saved to passwords.txt
+```
